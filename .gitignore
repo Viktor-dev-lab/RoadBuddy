@@ -1,0 +1,23 @@
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+# model
+*.pt
+*.pth
+checkpoints/
+weights/
+
+# data
+Data/
+videos/
+*.mp4
+
+
+
+
+
+

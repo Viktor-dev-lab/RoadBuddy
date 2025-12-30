@@ -1,0 +1,148 @@
+
+==========================================================================================
+TRACK 1 | Track ID: 191
+==========================================================================================
+Hành vi di chuyển của phương tiện: Xe ô tô (Track ID 191) đang di chuyển ổn định trên làn đường bên trái (left_lane). Trong suốt 2.8 giây quan sát, phương tiện không có dấu hiệu chuyển làn hoặc lạng lách, giữ trạng thái di chuyển thẳng (steady). Khoảng cách giữa xe chủ và phương tiện này đang thu hẹp dần từ 71.4m xuống còn 52.1m.
+
+Mức độ rủi ro: An toàn.
+
+Giải thích dựa trên dữ liệu: Các chỉ số an toàn đều nằm trong ngưỡng lý tưởng. Thời gian va chạm (TTC) ở mức thấp nhất là 6.72 giây, cao hơn nhiều so với ngưỡng nguy hiểm (thường dưới 3 giây). Khoảng cách an toàn theo thời gian (Headway) duy trì ở mức 3.36 giây, đảm bảo quy tắc khoảng cách an toàn (trên 2 giây). Vận tốc tương đối giữa hai xe ổn định ở mức 7.75 m/s và điểm rủi ro (risk_score) bằng 0.0. Hệ thống ghi nhận trạng thái theo dõi ổn định với độ tin cậy làn đường đạt 90%.
+
+Lời khuyên cho tài xế xe chủ: Tài xế có thể tiếp tục duy trì lộ trình hiện tại. Tuy nhiên, do khoảng cách với xe phía trước đang giảm dần, cần tiếp tục quan sát và sẵn sàng điều chỉnh tốc độ nếu phương tiện 191 giảm tốc đột ngột hoặc nếu khoảng cách an toàn (Headway) rút ngắn xuống dưới 2 giây.
+
+
+==========================================================================================
+TRACK 2 | Track ID: 199
+==========================================================================================
+1. Hành vi di chuyển: Phương tiện ID 199 là ô tô đang di chuyển ổn định trên làn đường bên trái (left_lane). Trong khoảng thời gian từ 11.53s đến 13.53s, phương tiện này duy trì trạng thái di chuyển thẳng, không có dấu hiệu chuyển làn (steady). Khoảng cách giữa xe chủ và phương tiện giảm dần từ 76,9m xuống còn 66,2m do xe chủ có vận tốc lớn hơn với tốc độ tương đối ổn định ở mức 7,75 m/s.
+
+2. Đánh giá mức độ rủi ro: An toàn.
+
+3. Giải thích dựa trên dữ liệu:
+- Điểm rủi ro (risk_score) duy trì tuyệt đối ở mức 0.0 trong suốt quá trình theo dõi.
+- Thời gian va chạm dự kiến (TTC) tại khung hình cuối cùng là 8,54 giây, cao hơn rất nhiều so với ngưỡng nguy hiểm thường thấy (dưới 2,5 - 3 giây).
+- Khoảng cách thời gian theo đuôi (headway) đạt 4,27 giây tại thời điểm cuối, đảm bảo tiêu chuẩn an toàn cách biệt giữa hai xe ở vận tốc 15,5 m/s (khoảng 56 km/h).
+- Trạng thái làn đường ổn định với điểm lệch làn thấp (0.1) và độ tin cậy nhận diện làn đường cao (0.9). Chất lượng theo dõi (track_quality) đạt mức tối đa 1.0 ở hầu hết các khung hình.
+
+4. Lời khuyên cho tài xế xe chủ: Tiếp tục duy trì tốc độ hiện tại và giữ vững làn đường. Do xe chủ đang tiếp cận gần hơn phương tiện phía trước (khoảng cách giảm 10,7m sau 2 giây), tài xế cần duy trì sự tập trung quan sát đèn phanh của xe ID 199 để điều chỉnh tốc độ phù hợp, đảm bảo duy trì khoảng cách an toàn tối thiểu trong các giây tiếp theo. Hiện tại không có bất kỳ mối đe dọa trực tiếp nào cần xử lý khẩn cấp.
+
+
+==========================================================================================
+TRACK 3 | Track ID: 208
+==========================================================================================
+Hành vi di chuyển: Đối tượng được xác định là một đèn giao thông (traffic light), là vật thể tĩnh bên đường, không phải phương tiện đang di chuyển. Trong khoảng thời gian quan sát từ 11.73 giây đến 15.53 giây, xe chủ đang tiến lại gần đèn giao thông này. Khoảng cách rút ngắn từ 50.5m xuống còn 26.5m. Vị trí tương đối của đèn giao thông so với xe chủ thay đổi từ làn tự thân (ego_lane) sang làn bên trái (left_lane) ở giây thứ 13.8, điều này cho thấy xe chủ có thể đang chuyển làn hoặc quỹ đạo đường cong làm thay đổi góc nhìn của camera.
+
+Mức độ rủi ro: An toàn.
+
+Giải thích dựa trên số liệu: Chỉ số rủi ro (risk_score) luôn bằng 0.0 trong suốt quá trình theo dõi, cho thấy không có nguy cơ va chạm. Tốc độ xe chủ duy trì ổn định ở mức 15.5 m/s (khoảng 56 km/h). Thời gian tới điểm va chạm dự kiến (TTC) tại thời điểm gần nhất là 3.42 giây và khoảng cách thời gian an toàn (headway) là 1.71 giây. Các thông số này nằm trong ngưỡng kiểm soát an toàn đối với một vật thể tĩnh khi xe đang lưu thông trên đường.
+
+Lời khuyên cho tài xế: Do đối tượng là đèn giao thông, tài xế cần tập trung quan sát tín hiệu đèn (xanh, vàng, đỏ) thay vì chỉ chú ý đến khoảng cách. Với tốc độ 15.5 m/s và khoảng cách còn lại 26.5m, tài xế nên sẵn sàng chân phanh để chuẩn bị dừng nếu đèn chuyển màu, nhằm đảm bảo dừng xe đúng vạch quy định một cách êm ái. Hãy duy trì sự tập trung vì hệ thống ghi nhận có sự thay đổi làn đường nhẹ trong quá trình tiếp cận nút giao.
+
+
+==========================================================================================
+TRACK 4 | Track ID: 211
+==========================================================================================
+1. Phân tích hành vi di chuyển: Phương tiện ID 211 là xe con đang di chuyển ổn định trên làn đường bên trái (left_lane) trong suốt 3,53 giây quan sát. Xe này không có hành vi chuyển làn (trạng thái steady). Khoảng cách giữa xe chủ và phương tiện giảm dần từ 73,5m xuống còn 42,9m với tốc độ tương đối là 7,75 m/s, cho thấy xe chủ đang tiến gần lại phương tiện phía trước. Các tọa độ bbox cho thấy xe này đang dần di chuyển ra khỏi rìa trái tầm nhìn của camera hành trình.
+
+2. Đánh giá mức độ rủi ro: An toàn.
+
+3. Giải thích dựa trên số liệu: Các chỉ số an toàn đều nằm trong ngưỡng kiểm soát tốt. Thời gian giãn cách (headway) tại thời điểm cuối cùng ghi nhận là 2,77 giây, vẫn cao hơn mức khuyến nghị an toàn tối thiểu là 2 giây. Thời gian va chạm dự kiến (TTC) thấp nhất đạt 5,54 giây, cung cấp đủ thời gian phản ứng cho tài xế trong trường hợp khẩn cấp. Hệ thống đánh giá điểm rủi ro (risk_score) bằng 0.00 xuyên suốt quỹ đạo, cho thấy không có dấu hiệu xung đột về tốc độ hay hướng di chuyển.
+
+4. Lời khuyên cho tài xế xe chủ: Duy trì tốc độ và sự tập trung quan sát. Do xe chủ đang di chuyển nhanh hơn phương tiện phía trước (15,5 m/s so với tốc độ thực tế của xe ID 211), tài xế nên bắt đầu chú ý điều chỉnh tốc độ hoặc chuẩn bị kế hoạch vượt xe nếu khoảng cách tiếp tục thu hẹp dưới ngưỡng 2 giây headway để đảm bảo duy trì biên độ an toàn lý tưởng.
+
+
+==========================================================================================
+TRACK 5 | Track ID: 213
+==========================================================================================
+Hành vi di chuyển: Phương tiện ID 213 (xe con) di chuyển ổn định trên làn đường bên trái trong suốt 2.33 giây quan sát. Xe duy trì trạng thái đi thẳng, không thay đổi làn đường và đang có xu hướng đi xa dần khỏi xe chủ với tốc độ ổn định.
+
+Mức độ rủi ro: An toàn.
+
+Giải thích dựa trên dữ liệu: Khoảng cách giữa xe chủ và phương tiện 213 tăng nhanh chóng từ 62.9 mét ở giây thứ 11.87 lên 169.5 mét ở giây thứ 14.20. Tốc độ tương đối duy trì ở mức 7.75 m/s cho thấy phương tiện này đang di chuyển nhanh hơn xe chủ, giúp nới rộng không gian an toàn. Chỉ số thời gian giãn cách (Headway) tăng từ 4.06 giây lên 10.94 giây, cao hơn rất nhiều so với ngưỡng an toàn tối thiểu là 2 giây. Chỉ số thời gian va chạm (TTC) tăng từ 8.12 giây lên 21.87 giây, cho thấy không có nguy cơ va chạm tiềm ẩn. Điểm rủi ro (risk_score) của phương tiện luôn duy trì ở mức 0.00.
+
+Lời khuyên cho tài xế xe chủ: Tiếp tục duy trì tốc độ và lộ trình hiện tại. Do phương tiện phía trước đang di chuyển xa dần và tạo ra khoảng cách an toàn rất lớn, tài xế không cần thực hiện bất kỳ thao tác điều chỉnh tốc độ hay hướng lái nào đối với đối tượng này. Chỉ cần duy trì sự tập trung quan sát tổng thể các phương tiện khác trên đường.
+
+
+==========================================================================================
+TRACK 6 | Track ID: 216
+==========================================================================================
+Hành vi di chuyển: Đối tượng được hệ thống phân loại là đèn giao thông, một vật thể cố định trên lộ trình. Trong 3.26 giây quan sát, khoảng cách giữa xe chủ và đối tượng giảm dần từ 46.3m xuống còn 34.7m. Dữ liệu ghi nhận sự thay đổi vị trí tương đối của đối tượng từ làn xe chủ (ego_lane) sang làn bên trái (left_lane) vào thời điểm 12.13 giây, sau đó giữ trạng thái ổn định khi xe chủ tiến lại gần.
+
+Mức độ rủi ro: An toàn.
+
+Giải thích: Điểm rủi ro của đối tượng này bằng 0.00 trong toàn bộ quá trình theo dõi. Xe chủ đang di chuyển ổn định với vận tốc khoảng 15.5 m/s (55.8 km/h). Thời gian dự kiến va chạm (TTC) tại khung hình cuối cùng là 4.48 giây với khoảng cách 34.7m, đây là khoảng cách và thời gian đủ an toàn để tài xế phản ứng với các tín hiệu giao thông. Tốc độ tương đối 7.75 m/s cho thấy xe chủ đang tiếp cận vật thể một cách có kiểm soát.
+
+Lời khuyên cho tài xế: Tài xế cần tập trung quan sát tín hiệu đèn giao thông (xanh, vàng hoặc đỏ) vì xe đang ở rất gần giao lộ hoặc khu vực đặt đèn (35m). Duy trì tốc độ hiện tại nếu đèn xanh và chuẩn bị tâm thế rà phanh nếu đèn chuyển sang màu vàng hoặc đỏ để đảm bảo dừng xe đúng vạch quy định.
+
+
+==========================================================================================
+TRACK 7 | Track ID: 219
+==========================================================================================
+1. Mô tả hành vi di chuyển: Phương tiện (Track ID 219) là xe ô tô đang di chuyển ổn định trên làn đường bên trái (left_lane). Trong suốt 2.74 giây quan sát, xe này duy trì trạng thái di chuyển thẳng, không có dấu hiệu chuyển làn hoặc thay đổi quỹ đạo đột ngột. Phương tiện đang di chuyển xa dần khỏi xe chủ.
+
+2. Đánh giá mức độ rủi ro: An toàn.
+
+3. Giải thích dựa trên số liệu: Khoảng cách giữa xe chủ và phương tiện tăng dần từ 69.0m lên 82.0m, cho thấy không có nguy cơ va chạm từ phía sau. Tốc độ tương đối ổn định ở mức 7.75 m/s (phương tiện di chuyển nhanh hơn xe chủ). Chỉ số thời gian giãn cách (Headway) tăng từ 4.45 giây lên 5.29 giây, đều nằm trong ngưỡng an toàn rất cao (lớn hơn 2 giây). Thời gian dự kiến va chạm (TTC) tăng từ 8.9 giây lên 10.58 giây, củng cố thêm trạng thái an toàn. Điểm rủi ro (risk_score) duy trì ở mức 0.0 trong toàn bộ quá trình theo dõi.
+
+4. Lời khuyên cho tài xế xe chủ: Tiếp tục duy trì tốc độ hiện tại (khoảng 15.5 m/s) và giữ vững làn đường. Không cần thực hiện các thao tác phanh hay chuyển hướng vì phương tiện phía trước đang nới rộng khoảng cách an toàn. Tiếp tục quan sát gương và các phương tiện khác ở các làn đường lân cận.
+
+
+==========================================================================================
+TRACK 8 | Track ID: 230
+==========================================================================================
+1. Mô tả hành vi di chuyển: Phương tiện Track ID 230 là một xe ô tô đang di chuyển ổn định trên làn đường bên trái (left_lane). Trong suốt 2 giây quan sát, xe này không có hành vi chuyển làn (trạng thái steady). Tuy nhiên, khoảng cách giữa xe chủ và phương tiện này đang rút ngắn rất nhanh, từ 73.5m giảm xuống còn 41.0m.
+
+2. Đánh giá mức độ rủi ro: Cảnh báo.
+
+3. Giải thích dựa trên số liệu: Tốc độ xe chủ duy trì ở mức 15.5 m/s, trong khi tốc độ tương đối với xe phía trước là 7.75 m/s, cho thấy xe chủ đang chạy nhanh hơn đáng kể và áp sát phương tiện này. Chỉ số khoảng cách thời gian (Headway) đã giảm mạnh từ 4.74 giây xuống chỉ còn 2.65 giây, bắt đầu tiến gần đến ngưỡng không an toàn (thường là dưới 2 giây). Thời gian dự kiến va chạm (TTC) cũng giảm nhanh từ 9.48 giây xuống 5.29 giây. Dù điểm rủi ro hiện tại bằng 0 do chưa có tình huống phanh gấp hay tạt đầu, nhưng tốc độ rút ngắn khoảng cách nhanh chóng là dấu hiệu cần lưu ý.
+
+4. Lời khuyên cho tài xế xe chủ: Tài xế cần chú ý quan sát xe phía trước vì khoảng cách đang bị thu hẹp nhanh. Nên duy trì tốc độ ổn định hoặc giảm nhẹ tốc độ để giữ khoảng cách an toàn (Headway) trên mức 3 giây, tránh bám đuôi quá sát để có đủ thời gian phản ứng nếu phương tiện phía trước phanh đột ngột.
+
+
+==========================================================================================
+TRACK 9 | Track ID: 237
+==========================================================================================
+Hành vi di chuyển: Phương tiện ID 237 đang di chuyển thẳng trong cùng làn đường với xe chủ (ego_lane). Trạng thái làn đường được duy trì ổn định (steady), không có dấu hiệu lấn làn hay chuyển làn. Phương tiện này đang di chuyển chậm hơn xe chủ với vận tốc tương đối là 7.75 m/s, dẫn đến khoảng cách giữa hai xe bị rút ngắn từ 31.2m xuống còn 29.2m trong khoảng thời gian quan sát 0.93 giây.
+
+Đánh giá mức độ rủi ro: An toàn.
+
+Giải thích chi tiết: Các thông số kỹ thuật cho thấy tình trạng giao thông chưa ở mức báo động. Khoảng cách thời gian (Headway) dao động từ 2.01 giây xuống 1.88 giây, tiệm cận ngưỡng an toàn tiêu chuẩn 2 giây. Thời gian dự kiến va chạm (TTC) duy trì ở mức 3.77 đến 4.03 giây, cao hơn mức nguy hiểm thường thấy (dưới 3 giây). Tốc độ xe chủ ổn định ở 15.5 m/s (khoảng 56 km/h). Mặc dù có sự nhầm lẫn nhẹ trong việc phân loại phương tiện (giữa car và truck) và một số khung hình tracking chưa ổn định, nhưng quỹ đạo tổng thể vẫn nằm trong tầm kiểm soát với điểm rủi ro bằng 0.
+
+Lời khuyên cho tài xế: Tiếp tục duy trì tốc độ và sự tập trung. Do xe chủ đang di chuyển nhanh hơn xe phía trước (tốc độ tương đối 7.75 m/s), tài xế nên chủ động kiểm soát chân ga để giữ khoảng cách an toàn (Headway) không giảm xuống dưới mức 1.5 giây, chuẩn bị sẵn sàng phản ứng nếu phương tiện phía trước giảm tốc độ đột ngột.
+
+
+==========================================================================================
+TRACK 10 | Track ID: 240
+==========================================================================================
+Phân tích hành vi: Phương tiện ID 240 là một ô tô đang di chuyển cùng làn đường phía trước xe chủ (ego_lane). Trong khoảng thời gian quan sát 0.6 giây, phương tiện giữ trạng thái di chuyển ổn định, không có dấu hiệu chuyển làn hay lạng lách. Khoảng cách giữa hai xe đang thu hẹp dần từ 49.8m xuống còn 44.6m do xe chủ đang di chuyển nhanh hơn phương tiện phía trước với vận tốc tương đối là 7.75 m/s.
+
+Mức độ rủi ro: An toàn.
+
+Giải thích dựa trên dữ liệu: Chỉ số rủi ro (risk_score) của phương tiện này bằng 0.0 trong suốt quá trình theo dõi. Mặc dù khoảng cách đang giảm, nhưng các thông số an toàn vẫn ở mức tốt. Khoảng cách thời gian theo sau (headway) tại thời điểm cuối là 2.88 giây, vẫn cao hơn ngưỡng an toàn tối thiểu thông thường là 2 giây. Thời gian dự kiến va chạm (TTC) là 5.75 giây, đủ để tài xế xe chủ xử lý nếu có tình huống bất ngờ. Chỉ số lệch làn đường rất thấp (0.05) cho thấy phương tiện phía trước đang đi đúng quỹ đạo giữa làn.
+
+Lời khuyên cho tài xế: Tiếp tục duy trì tốc độ và quan sát phương tiện phía trước. Do vận tốc tương đối giữa hai xe khá cao (xe chủ nhanh hơn khoảng 28km/h), khoảng cách sẽ tiếp tục thu hẹp nhanh chóng. Tài xế nên chủ động giảm nhẹ chân ga hoặc chuẩn bị chuyển làn nếu muốn duy trì tốc độ ổn định, đảm bảo không để khoảng cách thời gian (headway) rơi xuống dưới mức 2 giây để duy trì biên độ an toàn tối ưu.
+
+
+==========================================================================================
+TRACK 11 | Track ID: 241
+==========================================================================================
+1. Mô tả hành vi di chuyển: Phương tiện là một xe ô tô đang di chuyển cùng làn (ego_lane) phía trước xe chủ. Trong khoảng thời gian theo dõi 0.53 giây, phương tiện duy trì trạng thái di chuyển ổn định, không có dấu hiệu chuyển làn. Khoảng cách giữa hai xe giảm dần từ 69.4m xuống còn 64.5m do xe chủ đang di chuyển nhanh hơn phương tiện phía trước với vận tốc tương đối là 7.75 m/s.
+
+2. Đánh giá mức độ rủi ro: An toàn.
+
+3. Giải thích dựa trên con số cụ thể: Mặc dù khoảng cách đang rút ngắn, nhưng các chỉ số an toàn hiện tại vẫn nằm trong ngưỡng kiểm soát tốt. Thời gian giãn cách (Headway) đạt từ 4.16 giây đến 4.51 giây, cao hơn mức an toàn tối thiểu thông thường là 2 giây. Thời gian dự kiến xảy ra va chạm (TTC) ngắn nhất là 8.32 giây, đủ để tài xế phản ứng trong mọi tình huống. Chỉ số rủi ro (risk_score) ở mức 0.0 và điểm lệch làn (lane_departure_score) rất thấp (0.05) cho thấy phương tiện phía trước không có hành vi gây nguy hiểm.
+
+4. Lời khuyên cho tài xế xe chủ: Tiếp tục duy trì tốc độ và sự tập trung. Do xe chủ đang di chuyển nhanh hơn xe phía trước (lệch 7.75 m/s), tài xế nên chủ động kiểm soát chân ga để duy trì khoảng cách an toàn bền vững, tránh bám quá đuôi khi khoảng cách tiếp tục thu hẹp. Lưu ý hệ thống ghi nhận trạng thái theo dõi chưa ổn định (tracking_unstable), tài xế cần quan sát bằng mắt thường để bổ trợ cho hệ thống cảnh báo.
+
+
+==========================================================================================
+TRACK 12 | Track ID: 242
+==========================================================================================
+1. Mô tả hành vi di chuyển: Phương tiện ID 242 là một xe ô tô đang di chuyển cùng làn phía trước xe chủ (ego_lane). Trong khoảng thời gian quan sát 0.47 giây, phương tiện này duy trì trạng thái di chuyển ổn định, không có dấu hiệu chuyển làn hoặc chệch làn (lane_departure_score thấp 0.05). Tuy nhiên, xe chủ đang di chuyển nhanh hơn xe phía trước với vận tốc tương đối là 7.75 m/s, khiến khoảng cách giữa hai xe rút ngắn dần từ 63.7m xuống còn 60.6m.
+
+2. Đánh giá mức độ rủi ro: An toàn.
+
+3. Giải thích dựa trên số liệu: Mặc dù khoảng cách đang thu hẹp, nhưng các chỉ số an toàn vẫn nằm trong ngưỡng kiểm soát tốt. Khoảng cách an toàn theo thời gian (Headway) tại thời điểm cuối là 3.91 giây, cao hơn nhiều so với ngưỡng an toàn thông thường (2 giây). Thời gian dự kiến xảy ra va chạm (TTC) là 7.82 giây, cho phép tài xế có đủ thời gian phản ứng nếu có tình huống bất ngờ. Điểm rủi ro (risk_score) bằng 0.00 phản ánh trạng thái chưa có nguy hiểm trực tiếp.
+
+4. Lời khuyên cho tài xế xe chủ: Tiếp tục duy trì tốc độ và quan sát phía trước. Vì xe chủ đang tiếp cận xe phía trước với vận tốc tương đối khá lớn (7.75 m/s), tài xế nên lưu ý chuẩn bị giảm tốc nhẹ hoặc giữ chân phanh nếu khoảng cách tiếp tục thu hẹp nhanh chóng, nhằm duy trì chỉ số Headway lý tưởng trên 3 giây như hiện tại. Chú ý các tín hiệu đèn phanh của xe phía trước để phản ứng kịp thời.
+
